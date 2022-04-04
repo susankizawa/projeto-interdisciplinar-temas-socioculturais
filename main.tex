@@ -1,17 +1,175 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[portuguese]{babel}
+% =======================================================================
+% =                                                                     =
+% = ABNTEX - UTP                                                        =
+% =                                                                     =
+% =======================================================================
+% -----------------------------------------------------------------------
+% Author: Chaua Queirolo
+% Data:   01/07/2017
+% -----------------------------------------------------------------------
+\documentclass[12pt,oneside,a4paper,chapter=TITLE,section=TITLE,sumario
+=tradicional]{abntex2}
 
-\title{Temas Socioculturais}
-\author{Susan Izawa}
-\date{February 2022}
+% Regras da abnt
+\usepackage{packages/abnt-UTP}
+\usepackage{lipsum}
 
+% =======================================================================
+% =                                                                     =
+% = DADOS DO TRABALHO                                                   =
+% =                                                                     =
+% =======================================================================
+
+% Informações de dados para CAPA e FOLHA DE ROSTO
+\titulo{Temas Socioculturais}
+
+\autor{Ana Carolina\\Danilo Plusek\\João Guilherme\\Susan Kaori Izawa\\}
+
+\orientador{Prof. Patricia Rucker de Bassi}
+
+\preambulo{Trabalho de pesquisa apresentado ao curso de Análise e Desenvolvimento de Sistemas da Universidade Tuiuti do Paraná, como requisito para completar a disciplina de Projetos Interdisciplinares: Jogos Lógicos.}
+
+\instituicao{Universidade Tuiuti do Paraná}
+\local{Curitiba}
+\data{2022}
+
+% =======================================================================
+% =                                                                     =
+% = DOCUMENTO                                                           =
+% =                                                                     =
+% =======================================================================
 \begin{document}
 
-\maketitle
+% -----------------------------------------------------------------------
+% -                                                                     -
+% - ELEMENTOS PRÉ-TEXTUAIS                                              -
+% -                                                                     -
+% -----------------------------------------------------------------------
 
-\tableofcontents
+% Capa e folha de rosto
+\imprimircapa
+\imprimirfolhaderosto
 
-\section{Introduction}
+% Sumario
+\sumario
+
+% -----------------------------------------------------------------------
+% -                                                                     -
+% - ELEMENTOS TEXTUAIS                                                  -
+% -                                                                     -
+% -----------------------------------------------------------------------
+% Inicia a numeracao das páginas
+\textual
+
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+\chapter{Introdução}
+\label{cap:introducao}
+
+Temas sugeridos pelo MEC (Ministério da Educação e Cultura), foram indicados a
+serem retratados durante o ensino de temas socioculturais em meios disciplinares para a conscientização, os temas utilizados desse projeto serão:
+
+História e Cultura Afro-brasileiras e Cultura Indígena  abordando de modo legislativo a questão, suas práticas, código estético, assédios, preconceitos e em relação a propostas salariais de ambos os assuntos.
+
+Educação ambiental será um assunto retratado com abordagens empresariais, assim também sobre programas de gestão ambiental. A última temática abordada esta relacionada aos Direitos Humanos, com destaque sobre o Artigo XXIII da DUDH e trabalho escravo infantil.
+
+
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+\chapter{História e Cultura Afro-brasileira}
+\label{cap:historia-e-cultura-afro-brasileira}
+
+No ano de 2003 foi sancionada a Lei 10639/03 \cite{lei-10639} para incluir sobre o movimento negro e suas lutas, o aprofundamento desses conteúdos molda um estudo étnico-racial dentro de salas de aula, sendo um assunto abordado com princípios, fundamentos e orientações a respeito da História e Cultura Afro-brasileira.
+
+A lei 10639/2003-11645/2008 \cite{lei-10639} é responsável por articular uma ação coletiva contra racismo no meio de ensino, gerando respeito e equidade para ambas as etnias nas escolas e universidade quais a lei tem domínio. A pesquisa e abordagem sobre o assunto em diversas organizações são tomadas com respeitabilidade na área, sempre buscando atualizar informações e normas para aplicação da lei.
+
+Para que os estudantes possam assumir os princípios éticos, são necessários minimamente dois fatores: os princípios devem se expressar em situações reais, quais os estudantes possuam experiências e convivam com suas práticas, para existir um desenvolvimento na capacidade de autonomia moral e social, dando capacidade de analisar e eleger valores, de maneira consciente e livre.
+
+No mercado de trabalho de acordo com o estudo “A distância que nos une – Um retrato das Desigualdade Brasileiras” criado pela ONG Oxfam e escrito por \citeonline{estudo-oxfam} cita que em média negros recebem metade salarial em relação a brancos, cálculos estimam que igualdade de salario sem diferença étnica será atingida aproximadamente em 2089 caso não haja interferências imprevistas.
+
+Assim como o setor social possui interferência sobre questões étnicas, o setor privado de mesma maneira é influente sobre esse assunto e temas relacionados. Empresas como Ben and Jerry’s, Nubank, RD Station e Fractured Atlas são grandes exemplos de organizações com campanhas antirracistas e cultura Afro-brasileira.
+
+Devido a história em relação a escravidão um prejulgamento disfarçado se desenvolveu na sociedade atual, conforme o passar dos anos desde aquela época até os dias de hoje esse pensamento permanece, por essa razão esse tema indicado pelo MEC (Ministério de Educação e Cultura) deve ser abordado. 
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+\chapter{História e Cultura Indígena}
+\label{cap:historia-e-cultura-indigena}
+
+Por todo o território brasileiro podemos encontrar diversas comunidades indígenas, como a Guarani, Ticuna, Caingangue, Macuxi etc. Cada uma com suas tradições, hábitos únicos, e própria ética que consiste em manter um equilíbrio entre os humanos e a natureza, que dependem dela e à consideram sagrada. Podendo ser encontradas não só em locais isolados, como os Guaranis, que se localizam na Amazônia, mas também ao lado de cidades, levando vários indígenas a colocarem seus filhos em escolas, venderem artesanatos e buscarem trabalhos nas cidades para sustentarem seus entes e comprar alimentos para tais, pois em muitos casos, não tem um meio de obter alimentos da natureza, sendo por causa da falta de animais, poluição, ou até mesmo falta de terras para fazerem suas plantações. Devido a isto, houve uma parceria entre o \citeonline{cooperacao-gera-empregos-a-indios}, a Fundação do Trabalho de Mato Grosso do Sul e empresas privadas para inserir os índios no mercado de trabalho. A previsão é de que, por ano, cerca de dois mil terenas e guaranis sejam contratados para trabalhar nas safras, sendo assim, aproximadamente dez mil pessoas são beneficiadas pela iniciativa. 
+
+Com o acréscimo do número de indígenas em várias empresas em geral, também houve um aumento no número de casos de assédio moral, sexual, e de racismo em algumas empresas. Um exemplo é o relatado no site Rádio Senado:
+
+\vspace{1em}
+
+\begin{flushright}
+    \begin{minipage}{12cm}
+        \footnotesize
+        \linespread{1.0}\selectfont
+        Índios de tribos da região Sul do país denunciam irregularidades e assédio sexual em Secretaria Especial de Saúde Índios das tribos Caingangue, Guarani e Xokleng de Santa Catarina e do Rio Grande do Sul estiveram na terça-feira (4) no Senado para pedir a saída dos coordenadores de saúde indígena da região. Segundo eles, existem vários casos de assédio moral e sexual contra profissionais de saúde indígena, além do mau uso dos recursos e mau atendimento aos índios.  A Comissão de Direitos Humanos e Legislação Participativa (CDH) recebeu as denúncias. A Procuradora da Mulher no Senado, senadora Vanessa Grazziotin (PCdoB–AM), afirmou que a Casa vai acompanhar o andamento das medidas que serão tomadas pelo poder público para solucionar o caso.
+        
+        \cite{indios-irregularidade-assedio}
+    \end{minipage}
+\end{flushright}
+
+\vspace{1em}
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+\chapter{Educação Ambiental}
+\label{cap:educacao-ambiental}
+
+A Educação Ambiental surgiu em um cenário mundial relacionado a desastres ambientais causados pelo ser humano, e assim é necessário a mudança de postura vindo das grandes empresas, Patrick Geddes foi considerado o “pai da educação ambiental” pois já expressava sua preocupação com os efeitos negativos da Revolução Industrial. A primeira reunião sobre meio ambiente realizada pela ONU em 1992, teve como resultado a determinação da criação da série 14000 que consiste em uma série de normas internacionais para a padronização dos processos ambientais junto com a conscientização das corporações, auditoria, rotulagem, avaliação do desempenho e avaliação do ciclo de vida ambientais. Em 1995 foi lançada a ISO 14000.
+
+Segundo \citeonline{o-que-ser-iso-14000}, o objetivo principal dessa norma é garantir que as empresas busquem sempre aprimorar o cuidado com o meio ambiente e diminuir as consequências que a sua cadeia de produção causaria.
+
+Um dos maiores desafios das corporações atualmente são o tratamento e a destinação adequada dos resíduos industriais, no Brasil ainda há poucos casos em que empresas fazem a destinação correta dos mesmos. As consequências do lançamento desses resíduos em mares, lagos e córregos afetam diretamente o ecossistema aquático causando um sério desequilíbrio, causando a morte de seres vivos e a proliferação excessiva de algas, assim como a emissão de gases tóxicos que destroem a camada de ozônio,  ocorrência de chuvas acidas e efeito estufa, podem ocorrer também ao entrarem em contato direto com a população podem causar diversas doenças respiratórias.
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+\chapter{Direitos Humanos}
+\label{cap:direitos-humanos}
+
+De acordo com o Art. 23 da \citeonline{dudh}: "Toda pessoa tem
+direito ao trabalho, à livre escolha de emprego, a condições justas e favoráveis de
+trabalho e à proteção contra o desemprego". Apesar disso, segundo o site \citeonline{trading-economics}, o Brasil é o país com a 4ª maior taxa de desemprego no mundo com 11,2\%
+enquanto a menor taxa é de 2,4\% em Cingapura. 
+
+Alguns dos principais motivos para o desemprego são crises internacionais, cenário
+político instável, a automatização da mão de obra e o aumento da força de trabalho. 
+Com o crescimento da população economicamente ativa, a concorrência assim como as
+exigências do cargo aumentam fazendo com que um diploma seja praticamente essencial
+para conseguir empregos e salários melhores. De acordo com o \citeonline{desemprego-ibge}, 
+constatou-se que 4,8 milhões de pessoas são desalentadas, ou seja, são indivíduos que 
+gostariam e estão disponíveis para trabalhar, porém desistiram de procurar emprego por 
+pensarem que não encontrariam. Dentro desse número, 42,1\% tinham baixa escolaridade, 
+22\% eram jovens e 55,7\% eram mulheres e grande parte era negra.
+
+A dificuldade de se inserir no mercado não é o único desafio enfrentado pelo Brasil,
+também existem o trabalho escravo e o trabalho infantil. Segundo o programa \citeonline{enp}, 
+entre 1995 e 2020, mais de 55 mil trabalhadores em situações semelhantes
+à escravidão foram libertados e, de acordo com a \citeonline{cfb}, mais de 2,7 milhões de menores entre 5 e 17 anos estavam
+trabalhando de maneira ilegal. As principais causas para o trabalho escravo são um 
+estado de vulnerabilidade socioeconômica e baixa escolaridade e um dos principais
+motivos para o trabalho infantil é a pobreza. 
+
+Levando essas informações em consideração, mostra-se a importância de facilitar o 
+acesso à educação para tirar as pessoas da situação de desocupação assim como de 
+trabalho escravo, punir quem comete o crime de trabalho escravo e trabalho infantil 
+e informar a comunidade para que as pessoas possam denunciar o crime.
+
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+\chapter{Conclusão}
+
+Como vimos nos textos acima, as empresas brasileiras têm feito muitas mudanças para aumentar a empregabilidade e a qualidade do emprego para diversas pessoas, tem pensado mais no meio ambiente e mudado seus meios de descarte de lixo e substâncias tóxicas na natureza e está de pouco a pouco melhorando os direitos trabalhistas, porém ainda existe a necessidade dessas melhoras por parte de algumas empresas tendo vários escândalos de assédio moral e sexual, descarte indevido de substâncias tóxicas na natureza, descumprimento dos direitos trabalhistas etc; Mas que aos poucos, tem diminuído e se encaminhado para um futuro melhor.
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+%\postextual
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{referencias}
 
 \end{document}
